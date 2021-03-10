@@ -1,0 +1,21 @@
+#adding an item to created list declaring a list
+
+name=["rock","john","tim","Jerry"]
+
+name.append("Tom")
+#append() method is used to add a item at end of the list
+
+print("output using append()\n",name,"\n")
+
+name.insert(2,"smith")
+#add a item in list using index 
+
+print("output using insert()\n",name,"\n")
+
+#new list
+list=["sony","LG","Philips","godrej"]
+
+#using extend method we can extend the [name] with [list]
+name.extend(list)#!!!!! we can combine remaining datatypes (set ,tuple ,dictionary)
+
+print("output using extend()\n",name,"\n")
