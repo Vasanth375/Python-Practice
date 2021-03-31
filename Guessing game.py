@@ -28,7 +28,7 @@ for Guess in range(1,6):
               # guess is equal to secret number
 
 if(guessnum==secretnum):
-    print("Your guess is correct.You guessed in "+str(Guess)+"th round")
+    print("Your guess is correct.You guessed number in "+str(Guess)+" chances")
 else:
   print("Failed(≧▽≦)")
   print("You didn't entered correct number")
