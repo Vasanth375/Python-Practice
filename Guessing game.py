@@ -7,7 +7,7 @@ print("Now your playing a Guessing game\n")
 secretnum=random.randint(1,10)
 
 print("You had only 5 chances\n")
-for Guess in range(1,6):
+for GuessTaken in range(1,6):
   print("take a number guess from 1 to 10")
   
   #try and except block is to find if user entered any noninteger value
@@ -28,7 +28,7 @@ for Guess in range(1,6):
               # guess is equal to secret number
 
 if(guessnum==secretnum):
-    print("Your guess is correct.You guessed number in "+str(Guess)+" chances")
+    print("Your guess is correct.You guessed number in "+str(GuessTaken)+" chances")
 else:
   print("Failed(≧▽≦)")
   print("You didn't entered correct number")
