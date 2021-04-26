@@ -1,4 +1,3 @@
-/*
 ls - retrieve all files currently on directory 
 cd <directory> - <directory> is name of directory, change the current directory into another
 Ctrl+L - to clear the terminal trash (statements)
@@ -6,4 +5,4 @@ pwd - it shows the present working directory
 cd . and cd ..
 make file_name - to compile program 
 ./file_name - to print the answer
-there are many commands to write*/
+there are many commands to write
